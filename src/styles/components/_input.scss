@@ -1,0 +1,18 @@
+.input-bg {
+    color: $light !important;
+    font-weight: 400;
+    font-size: 15px;
+    height: 42px;
+    font-family: $quicksand !important;
+    border-color: $black;
+    background-color: lighten($black, 5%);
+
+    &:hover {
+        border-color: $gray;
+    }
+
+    &:focus {
+        border-color: $green;
+        box-shadow: none !important;
+    }
+}

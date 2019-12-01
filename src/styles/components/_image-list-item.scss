@@ -1,0 +1,17 @@
+.posts-title {
+    color: $white !important;
+    font-weight: 700;
+    font-size: 14px !important;
+    margin-bottom: 6px !important;
+}
+
+.posts-date {
+    color: $gray;
+    font-weight: 600 !important;
+    font-size: 13px;
+    margin-bottom: 0 !important;
+}
+
+.posts-count {
+    @extend .posts-date
+}

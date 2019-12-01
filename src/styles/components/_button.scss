@@ -1,0 +1,14 @@
+.btn-search {
+    color: $white;
+    font-weight: 500;
+    font-family: $quicksand !important;
+    border-color: $green;
+    background-color: $green;
+
+    &:hover,
+    &:focus {
+        color: $white;
+        border-color: $green;
+        background-color: darken($green, 3%);
+    }
+}

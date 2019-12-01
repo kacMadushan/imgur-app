@@ -1,0 +1,30 @@
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    color: $gray;
+    font-weight: normal;
+    font-size: 14px;
+    font-family: $quicksand !important;
+    background-color: $white;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    width: 100%;
+}
+
+label {
+    color: $light;
+    font-weight: 500;
+}
+
+::placeholder {
+    color: $light !important;
+}

@@ -1,0 +1,15 @@
+.block {
+    display: block;
+    text-align: center;
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+    border: 1px solid $light;
+    background-color: $black;
+}
+
+.content {
+    text-align: left;
+    padding: 8px 12px;
+    background-color: $black;
+}
