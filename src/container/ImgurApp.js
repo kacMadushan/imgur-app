@@ -25,6 +25,7 @@ class ImgurApp extends Component {
     };
 
     handleSearchFormText = async (text) => {
+        axios.defaults.headers.common['Authorization'] = 'fdcf8478ff39358';
         this.setState({ loading: true })
         const res = await axios.get(
             `https://api.imgur.com/3/gallery/search/top/week/?q=${text}&q_type=jpg&q_size_px=500`, { headers }
